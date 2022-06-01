@@ -24,16 +24,16 @@ Example:
 Below are the GET requests to get the list of users with different filter and sort criteria
 
 To get all the users with pagination                                                
-http://localhost:8080/v1/users
-http://localhost:8080/v1/users?pageSize=500
-http://localhost:8080/v1/users?pageSize=100&pageNo=3
+1. http://localhost:8080/v1/users
+2. http://localhost:8080/v1/users?pageSize=500
+3. http://localhost:8080/v1/users?pageSize=100&pageNo=3
 
-http://localhost:8080/v1/users?sortBy=name&sortDir=asc
-http://localhost:8080/v1/users?sortBy=name&sortDir=desc
+4. http://localhost:8080/v1/users?sortBy=name&sortDir=asc
+5. http://localhost:8080/v1/users?sortBy=name&sortDir=desc
 
-http://localhost:8080/v1/users?lastName=Price
-http://localhost:8080/v1/users?lastName=Price&age=82
-http://localhost:8080/v1/users?age=82
+6. http://localhost:8080/v1/users?lastName=Price
+7. http://localhost:8080/v1/users?lastName=Price&age=82
+8. http://localhost:8080/v1/users?age=82
 
 
 Assumptions:
