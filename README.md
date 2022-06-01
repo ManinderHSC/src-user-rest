@@ -14,10 +14,10 @@ Deliverable:
 
 
 Remarks:
-In-file H2 Database used for development 
-Db Scripts used are avilable as part of the project.
-Tested the application with 1M records. Response time noticed was within 1 sec.
-Second level cache can be used to minimize the query time further if needed
+- In-file H2 Database used for development 
+- Db Scripts used are avilable as part of the project.
+- Tested the application with 1M records. Response time noticed was within 1 sec.
+- Second level cache can be used to minimize the query time further if needed
 
 
 Example:
@@ -37,11 +37,11 @@ To get all the users with pagination
 
 
 Assumptions:
-The name column in db contains the data in the format firstname<space>lastName - Search using lastname would have memory efficient if there would have been seperate columns for firstname and lastname
-The response time would depend on database and configuration of db and deployment server used
-The response time would also depend on network latency
-The pazeSize param supports maximum of 5000 records that can be fetched. The client can adjust this based on the network and server infrastructure.
-The pazeSize default value is 100
+1. The name column in db contains the data in the format firstname<space>lastName - Search using lastname would have been memory efficient if there would have been seperate columns for firstname and lastname
+2. The response time would depend on database and configuration of db and deployment server used
+3. The response time would also depend on network latency
+4. The pazeSize param supports maximum of 5000 records that can be fetched. The client can adjust this based on the network and server infrastructure.
+5. The pazeSize default value is 100
 
 Sample logs:
 
