@@ -23,7 +23,7 @@ Second level cache can be used to minimize the query time further if needed
 Example:
 Below are the GET requests to get the list of users with different filter and sort criteria
 
-To get all the users with pagination 
+To get all the users with pagination                                                
 http://localhost:8080/v1/users
 http://localhost:8080/v1/users?pageSize=500
 http://localhost:8080/v1/users?pageSize=100&pageNo=3
